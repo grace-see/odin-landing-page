@@ -81,7 +81,7 @@ button {
 }
 
 .information {
-    margin: 0 128px;
+    padding: 0 128px 128px 128px;
 }
 
 .information .main {
@@ -112,4 +112,21 @@ button {
 
 .section {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 175px;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    padding: 0 36px 0 36px;
 }
