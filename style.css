@@ -8,6 +8,11 @@ body {
     padding: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .header, .hero {
     background-color: #1F2937;
     display: flex;
@@ -47,7 +52,7 @@ a {
     color: #F9FAF8;
 }
 
-.hero-main {
+.hero .main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -73,4 +78,32 @@ button {
 .right-side {
     display: flex;
     align-items: center;
+}
+
+.information .main {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.information img {
+    border-radius: 12px;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #8c8f93;
+}
+
+.all-sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section {
+    text-align: center;
 }
