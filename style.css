@@ -80,11 +80,16 @@ button {
     align-items: center;
 }
 
+.information {
+    margin: 0 128px;
+}
+
 .information .main {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin: 48px;
 }
 
 .information img {
@@ -95,13 +100,14 @@ button {
 }
 
 .subtext {
-    font-size: 16px;
+    font-size: 18px;
     color: #8c8f93;
 }
 
 .all-sections {
     display: flex;
     justify-content: space-evenly;
+    gap: 48px;
 }
 
 .section {
