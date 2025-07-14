@@ -64,9 +64,11 @@ button {
     border: none;
     padding: 8px 24px;
     flex-basis: 140px;
-    max-height: 32px;
+    max-height: 36px;
     align-self: baseline;
     border-radius: 8px;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 .left-side {
@@ -129,4 +131,42 @@ button {
     font-style: normal;
     text-align: right;
     padding: 0 36px 0 36px;
+}
+
+.call-to-action {
+    margin: 48px 128px;;
+    padding: 48px 96px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.call-to-action button {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.call-to-action .left-side {
+    flex-grow: 2;
+}
+
+.call-to-action .right-side {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.call-to-action .main {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 36px;
+    color:#F9FAF8;
 }
